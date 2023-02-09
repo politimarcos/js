@@ -1,7 +1,7 @@
 
 let titulo = document.getElementById("tituloPrincipal");
 console.log(titulo.innerText);
-titulo.innerText = "Administrador Moodle";
+titulo.innerText = "Administrador Moodle v1.0";
 
 class Estudiante {
     constructor(id, usuario, nombre, apellido, dni, email, telefono) {
