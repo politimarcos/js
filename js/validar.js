@@ -8,7 +8,7 @@ formularioLogin.addEventListener("submit", function (e) {
     console.log(correo)
     console.log(contrasenia)
     if (correo == "hola@email.com" && contrasenia == "1234") {
-        Swal.fire({ icon: "success", text: "Ingreso Correcto!" })
+        Swal.fire({ icon: "success", text: "Ingreso Correcto!!!" })
         accesoValido()
 
     } else {
