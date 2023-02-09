@@ -21,7 +21,7 @@ let  eliminar = document.getElementById("elimina18")
 eliminar.addEventListener("click", function (e) {
 
     e.preventDefault()
-    Swal.fire({ icon: "error", text: "Debe completar todos los campos" })
+    Swal.fire({ icon: "error", text: "Debe completar todos los campos, por favor" })
 
 
 })
